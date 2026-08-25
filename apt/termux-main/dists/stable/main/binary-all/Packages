@@ -182,10 +182,10 @@ Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
 Filename: pool/main/termux-tools_1.39.4_all.deb
-Size: 18972
-MD5sum: 41f8cbcd306d254ef956f9df95791673
-SHA1: 7cd0754b2777428a1a74bbd34fc9cad6a07cf6f7
-SHA256: f6d428c5721f6f5ad65a766154cfb08bd669648a732f92bd8bb3e37fafa6178a
+Size: 18944
+MD5sum: e8a90cfcd8ad5c245f08d1dd439f1254
+SHA1: c5ff804c41c5a05104287d654db7d1402ac6817f
+SHA256: 8b431da251a1214f443c80e3e8e73a1a0dfcc26782e949cb4f1993f5df47c2cd
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
