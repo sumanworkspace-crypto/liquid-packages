@@ -6,9 +6,11 @@ The repository currently contains a verified Liquid-owned `termux-keyring_3.11_a
 
 ## Repository URL
 
-When GitHub Pages is enabled, the APT base URL will be:
+The currently verified public raw-content APT base URL is:
 
-`https://sumanworkspace-crypto.github.io/liquid-packages/apt/termux-main/`
+`https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/apt/termux-main`
+
+GitHub Pages can be enabled later if the account grants Pages administration permission; the package files are already laid out for that deployment.
 
 ## Ownership and notices
 
