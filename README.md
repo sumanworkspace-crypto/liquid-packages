@@ -1,17 +1,23 @@
 # Liquid IDE Packages
 
-This is the public package repository prototype for **Liquid IDE**. It is intended for the embedded Liquid IDE terminal runtime, whose package identity is `com.liquidide` and whose prefix is `/data/data/com.liquidide/files/usr`.
+This repository publishes the **Liquid IDE** ARM64 package distribution for the embedded terminal runtime. The runtime owner identity is `com.liquidide`, and the package prefix is `/data/data/com.liquidide/files/usr`.
 
-The repository currently contains a verified Liquid-owned `termux-keyring_3.11_all.deb` prototype. It is not yet a complete production Termux distribution; `bash`, `dpkg`, `apt`, `curl`, `termux-tools`, and all runtime dependencies must be rebuilt for Liquid before using this repository for a final setup release.
+## APT repository
 
-## Repository URL
-
-The currently verified public raw-content APT base URL is:
+The signed APT base URL is:
 
 `https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/apt/termux-main`
 
-GitHub Pages can be enabled later if the account grants Pages administration permission; the package files are already laid out for that deployment.
+Use the `stable` suite and `main` component. The repository contains rebuilt ARM64 packages, including the essential bootstrap chain (`apt`, `dpkg`, `bash`, `curl`, `termux-tools`, `termux-exec`, `util-linux`, and their dependencies), plus architecture-independent packages. Repository metadata is signed by the Liquid IDE package key whose fingerprint is `5C05D78806B6B3352012409A55E04BB5AC59F602`.
+
+## Bootstrap
+
+`bootstrap/bootstrap-aarch64.zip` is the locally generated ARM64 bootstrap archive for the Liquid prefix. Its contents have been checked for ZIP integrity, the expected package-manager entries, the `com.liquidide` runtime prefix, and the absence of the old AndroidIDE package-path token.
+
+## Verification status
+
+The package artifacts were rebuilt with the Liquid package prefix and validated for Debian metadata, payload paths, symlink targets, and forbidden AndroidIDE identity tokens. The repository’s `InRelease` signature and all `Release` checksums pass local verification. A physical OnePlus CPH2569 running Android 15 still needs to perform the final install, `apt update`, package installation, SDK/JDK setup, Gradle sync, and APK/AAB build tests.
 
 ## Ownership and notices
 
-Liquid IDE is the product and repository identity. This repository also contains or will contain modified GPL-licensed AndroidIDE/Termux-derived components. Upstream license and copyright notices are retained in `THIRD_PARTY_NOTICES/`. Liquid IDE does not claim authorship of upstream code.
+Liquid IDE is the product and repository identity. This distribution includes modified GPL-licensed AndroidIDE/Termux-derived components and retains the applicable upstream license and copyright notices in [`THIRD_PARTY_NOTICES/GPL-3.0`](THIRD_PARTY_NOTICES/GPL-3.0). Liquid IDE does not claim authorship of upstream code.

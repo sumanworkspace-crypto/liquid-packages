@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Liquid IDE
+Label: Liquid IDE
+Suite: stable
+Codename: stable
+Date: Tue, 25 Aug 2026 09:09:52 +0000
+Architectures: aarch64 all
+Components: main
+Description: Liquid IDE ARM64 package repository
+MD5Sum:
+ 7cf8b4f6f0a39ddf6b0302c9299668c6            92817 main/binary-aarch64/Packages
+ d8530d8ab2db0074f33a91380ba1870f            30334 main/binary-aarch64/Packages.gz
+ 79ac9884ae4c2df96815bb89c5fefa08            26428 main/binary-aarch64/Packages.xz
+ ebb4bf2eee9f4d0e0d1d303edca1f25c             8490 main/binary-all/Packages
+ 4f27aab19b1f7397c41c14e269f36309             3351 main/binary-all/Packages.gz
+ a5af6fa573a8d307174f972cc6bc48fa             3272 main/binary-all/Packages.xz
+SHA256:
+ ef65a7dedd0c3610fbff12e2a3116518a3f9c8374c466319aa5e63c040732efe            92817 main/binary-aarch64/Packages
+ 4b1c485c8974c33c638e83a068e5101c4eaf8f2d783c89ba67f5918bdce30f5b            30334 main/binary-aarch64/Packages.gz
+ ac2a3cc82d510ededb20a83cae971abab9c3aa40f55b0c96ec8625a37dd48f4f            26428 main/binary-aarch64/Packages.xz
+ d0556150689c8be6e116dba6715881360106a90e4a7682537169844fa388cb95             8490 main/binary-all/Packages
+ e001e0607d51b7da0cc9edd2aac940befad8a7345be90fa642c19e2e5e5f7f92             3351 main/binary-all/Packages.gz
+ 25fd0e451491e7c1f8315b6d1ca1e71220917df45f1cb5dbc8a466d996d4505c             3272 main/binary-all/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEXAXXiAa2szUgEkCaVeBLtaxZ9gIFAmqNW+AACgkQVeBLtaxZ
+9gLc+wgAoheuFUvtCWAdA/Dg+EAQZpngxq8EOliybQ/tSJ3CVSq25up9Flle+g9g
+GvosSgD5GSWSdZycc01ZKfhh5xv3hsX4NOT5sVUH48uClC+VU5cKP6+DsorbLqnq
+tGV7K2dVjh7zG3WNWDqftZU5t49+J3/HcY2l/YGKzJp/4uI1xaRH8qawVfDrjUrd
+fmT3h7rW36kwl4zZRurvxkYtGMEougarwt4Kh+2lOJK1Ikbctd2fdM7i84vnNTq/
+IgAJR4ai7jQ5EBAuwVEFOgpXgqSk+u8r36j7pNqmaCQbFCCGzl4b8pMZ4JX4tuBQ
+7OqQ0AEoL1R3frZcgCGM8cyoeqQiSA==
+=T0qm
+-----END PGP SIGNATURE-----
