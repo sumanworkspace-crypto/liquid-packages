@@ -1,0 +1,7 @@
+Origin: Liquid IDE
+Label: Liquid IDE
+Suite: stable
+Codename: stable
+Components: main
+Architectures: aarch64 all
+Description: Liquid IDE Termux package repository prototype

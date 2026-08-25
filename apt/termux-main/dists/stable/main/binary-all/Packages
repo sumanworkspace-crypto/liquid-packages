@@ -1,0 +1,12 @@
+Package: termux-keyring
+Architecture: all
+Installed-Size: 
+Maintainer: Liquid IDE Package Repository <packages@liquidide.local>
+Version: 3.11
+Homepage: https://github.com/AndroidIDEOfficial/terminal-packages
+Essential: yes
+Description: GPG public keys for the Liquid IDE terminal repository
+Filename: apt/termux-main/pool/main/termux-keyring_3.11_all.deb
+Size: 1724
+SHA256: ccd9d283dc47fc110364bdcf454f18abaa2629426270748cb249481391d41b1d
+
