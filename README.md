@@ -14,4 +14,4 @@ GitHub Pages can be enabled later if the account grants Pages administration per
 
 ## Ownership and notices
 
-Liquid IDE is the product and repository identity. This repository also contains or will contain modified GPL-licensed AndroidIDE/Termux-derived components. Upstream license and copyright notices are retained in `UPSTREAM_NOTICES/`. Liquid IDE does not claim authorship of upstream code.
+Liquid IDE is the product and repository identity. This repository also contains or will contain modified GPL-licensed AndroidIDE/Termux-derived components. Upstream license and copyright notices are retained in `THIRD_PARTY_NOTICES/`. Liquid IDE does not claim authorship of upstream code.

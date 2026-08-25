@@ -1,6 +1,6 @@
 Liquid IDE package repository
 
-Liquid IDE is an independent project. Some package recipes and runtime components are derived from or modified from AndroidIDE/Termux sources. Applicable upstream licenses and copyright notices are retained in UPSTREAM_NOTICES/ and in the corresponding source distributions.
+Liquid IDE is an independent project. Some package recipes and runtime components are derived from or modified from AndroidIDE/Termux sources. Applicable upstream licenses and copyright notices are retained in THIRD_PARTY_NOTICES/ and in the corresponding source distributions.
 
 The package artifacts in this repository must be rebuilt and validated with the Liquid prefix:
 /data/data/com.liquidide/files/usr
