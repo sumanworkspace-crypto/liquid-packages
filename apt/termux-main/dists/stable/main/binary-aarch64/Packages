@@ -615,10 +615,10 @@ Architecture: all
 Maintainer: Liquid IDE maintainers
 Depends: openjdk-17, gradle-core, gradle-libs-a, gradle-libs-b
 Filename: pool/main/gradle_8.8-liquid1_all.deb
-Size: 1240
-MD5sum: bfdd52e7c6a6097910d7356bf67da5f4
-SHA1: 0a257a598c3d74e595f2bfdfa904202b37603d36
-SHA256: 39a7a26cce676f0e216ec4c6d90d0d833ba33a084118c08643c770916da5aa88
+Size: 1236
+MD5sum: a35893a042b20653fd8d914d8d90fdc7
+SHA1: 141481a550427d5b7864bee490a742a94827b3eb
+SHA256: a6a0db504d8aa083b961502001711fc74d5550fe8d8d6ffb9cda285da0d189e4
 Section: devel
 Priority: optional
 Homepage: https://gradle.org/
@@ -631,10 +631,10 @@ Architecture: all
 Maintainer: Liquid IDE maintainers
 Depends: openjdk-17
 Filename: pool/main/gradle-core_8.8-liquid1_all.deb
-Size: 11784
-MD5sum: 49285275bb51cb52f7ed0289d4052d66
-SHA1: 45ab097f5d5815f8052087cf1ae6fbc4854e367e
-SHA256: 62e7540146e4327dd649736714b344260881de889a2f5136abc14de83ced265b
+Size: 11788
+MD5sum: e9876ef609953439e9a71f2a1fe823db
+SHA1: 06de7fa812f8331eaad6a029a9813dc37e00d164
+SHA256: 79fa7c35ac28c2d8f11b25b18faa13b9242360aac827192250b1388630a0d9f4
 Section: devel
 Priority: optional
 Homepage: https://gradle.org/
@@ -647,10 +647,10 @@ Architecture: all
 Maintainer: Liquid IDE maintainers
 Depends: openjdk-17, gradle-core
 Filename: pool/main/gradle-libs-a_8.8-liquid1_all.deb
-Size: 68755728
-MD5sum: 23d51e4f899ed3ce13a0d3e695514d49
-SHA1: 62fa752a65de592d6621e529c0407dc1c903ca44
-SHA256: 9881463d5760062f2a292ffa19e15fe340252e4d33e48be01478509a3e387d9e
+Size: 68756144
+MD5sum: e6cb086112b052062ba225bb50478838
+SHA1: cef012ba6de17210c71dd6ba47a2de78bc807c1a
+SHA256: a161b03765d5579d9a6d375803d6f8a778fbcd55d49ebcb4e73368248a934075
 Section: devel
 Priority: optional
 Homepage: https://gradle.org/
@@ -663,10 +663,10 @@ Architecture: all
 Maintainer: Liquid IDE maintainers
 Depends: openjdk-17, gradle-core
 Filename: pool/main/gradle-libs-b_8.8-liquid1_all.deb
-Size: 67428856
-MD5sum: ed6fb5ff3b10293162d65c6e63ca4f42
-SHA1: 3a5c51cb31a289a196532624d2eb6aaec70c8c6b
-SHA256: 3f706ed52ffb3089bd3b92ef77242b15e69a5fa7518ec61daf0574288284fbe6
+Size: 67429140
+MD5sum: d801d737e026a42c4d0f681899c0c96d
+SHA1: 3a5f94bff1349bb8daba03b84b0490cfd677adac
+SHA256: 88605ed630b7c525c535dcef79b78d069064c392820409c6be0f68cafd407ad7
 Section: devel
 Priority: optional
 Homepage: https://gradle.org/
@@ -811,10 +811,10 @@ Installed-Size: 72
 Breaks: libandroid-shmem-dev
 Replaces: libandroid-shmem-dev
 Filename: pool/main/libandroid-shmem_0.7_aarch64.deb
-Size: 7376
-MD5sum: 05a34e632109b016be965342b25a7e3c
-SHA1: 9697d45bb794d1f72a0b04752528547d61ae8f91
-SHA256: fadfcedd6fa28b93b2d93b7230a0db22fe9ee5e4849e0d220aa4e1c593660085
+Size: 7380
+MD5sum: 00925e2e68023ea23262e2cc5e0c86f1
+SHA1: a772bba79ead0c1a521ccbc244ffcf6122170e16
+SHA256: 9807a3f21e1f7b4ed80e1c1e770d78c17ae224e8a905afb4081983bbf06df43a
 Homepage: https://github.com/termux/libandroid-shmem
 Description: System V shared memory emulation on Android using ashmem
 
@@ -824,10 +824,10 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 96
 Filename: pool/main/libandroid-spawn_0.3_aarch64.deb
-Size: 15324
-MD5sum: 92200805bb3547ac38723022c31edf15
-SHA1: 1adb5f679085236e6e32c3f42a77e361f9be5d58
-SHA256: 8e35d1fdf9221c8828875649d839e7cc9daeb935ba5afee0527e5f0bf72b8082
+Size: 15320
+MD5sum: f8759d95e6af819da756c3f299806416
+SHA1: 3b68c16fb50c994cd753431c9912eff8d0473a10
+SHA256: 07a18ac8f0e631081303040d8a07a7748950c507c87575289046567131de65e1
 Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Shared library for the posix_spawn system function
 
@@ -1312,10 +1312,10 @@ Installed-Size: 2304
 Breaks: libjpeg-turbo-dev
 Replaces: libjpeg-turbo-dev
 Filename: pool/main/libjpeg-turbo_3.2.0_aarch64.deb
-Size: 454944
-MD5sum: 750a88b5d469147b057d133b244823bb
-SHA1: c9713d6a7c9b6b62b962072f3d4200fb2f686791
-SHA256: d9122e2b85f53ee7ab0b6a198d88de45bb44454265714b2b0c475d26e61cf63d
+Size: 454600
+MD5sum: 60a4b36cd183f24bd332afa75e451c03
+SHA1: 4d058d2f801ff672bd5dd50a35807698a26cbae5
+SHA256: 03fab5b8773dc6239475cccdcaee123bbd65cb732c48753880c43078b4d88340
 Homepage: https://libjpeg-turbo.virtualgl.org
 Description: Library for reading and writing JPEG image files
 
@@ -2096,10 +2096,10 @@ Installed-Size: 540
 Breaks: littlecms-dev
 Replaces: littlecms-dev
 Filename: pool/main/littlecms_2.19.1_aarch64.deb
-Size: 143600
-MD5sum: 5c63ca372a3382fe965a0bb6da8e2787
-SHA1: becc03d10afb47af4cd4c1ef76336595096c949f
-SHA256: ba6b9fda074c075ba7fdf80121d992edc41ad3d65e57adf421c59ee7a53cf7cb
+Size: 144528
+MD5sum: 5ee541684b9b923ffa3ac2c2ac30aab3
+SHA1: f925d1e9b5a6a42a2120d589f30e6a39e8dc77ed
+SHA256: f93b375e9c908472e857e7c98b989d912731dd63e2ef5f7bb091475f0d71aadd
 Homepage: http://www.littlecms.com/
 Description: Color management library
 
@@ -2256,10 +2256,10 @@ Installed-Size: 218040
 Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms
 Suggests: cups
 Filename: pool/main/openjdk-17_17.0.20_aarch64.deb
-Size: 96286716
-MD5sum: 1d85cd764213eeffdfcbff6f2339be78
-SHA1: 89560e8938eb4f6c0c891eb8eb50f4d5f468df9c
-SHA256: 8417bb0cbdbb372d00eaf9204f780dee6318a64e1060905601c9d00888cc13ac
+Size: 96241148
+MD5sum: 49084c514bbc66bced3ac2a2fadf6c3a
+SHA1: 88414916c3be3b73d5c176552b41b9842d9bebd5
+SHA256: d1b904839dd984384bf2741c0bbf9db34562bf360cca85791833aa0dfda281bf
 Homepage: https://openjdk.java.net
 Description: Java development kit and runtime
 
