@@ -1,0 +1,5 @@
+# Liquid IDE toolchain notices
+
+Liquid IDE redistributes ARM64 Android build and platform tools in its own signed package repository so they can run on Android devices without an x86_64 host emulator. The archive payloads were obtained from the AndroidIDE Tools `v34.0.4` ARM64 release and are rehosted here under Liquid IDE filenames. The upstream AndroidIDE Tools project is GPL-3.0 licensed; its source and license notices remain attributable to the upstream project. The bundled Android SDK and command-line tools retain their own Google/Android SDK license notices. Gradle 8.8 is distributed under the Apache License, Version 2.0 and its original notices are retained inside the Liquid Gradle package. The ARM64 `aapt`, `aapt2`, `adb`, and related binaries are not presented as Liquid-original source; Liquid IDE owns the packaging, repository metadata, application integration, and branding.
+
+Liquid-specific changes are limited to rehosting, archive naming, repository metadata, and private-prefix integration. No upstream copyright notices are removed.

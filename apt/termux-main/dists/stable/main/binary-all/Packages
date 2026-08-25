@@ -95,6 +95,70 @@ SHA256: 1227f222652a4c162a803a0790d12e284999329849f7949aacb6d251d4a279c9
 Homepage: https://packages.debian.org/dpkg
 Description: Creates Packages index files
 
+Package: gradle
+Version: 8.8-liquid1
+Architecture: all
+Maintainer: Liquid IDE maintainers
+Depends: openjdk-17, gradle-core, gradle-libs-a, gradle-libs-b
+Filename: pool/main/gradle_8.8-liquid1_all.deb
+Size: 1240
+MD5sum: bfdd52e7c6a6097910d7356bf67da5f4
+SHA1: 0a257a598c3d74e595f2bfdfa904202b37603d36
+SHA256: 39a7a26cce676f0e216ec4c6d90d0d833ba33a084118c08643c770916da5aa88
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Liquid IDE Gradle 8.8 command launcher
+ Liquid IDE Gradle 8.8 runtime component.
+
+Package: gradle-core
+Version: 8.8-liquid1
+Architecture: all
+Maintainer: Liquid IDE maintainers
+Depends: openjdk-17
+Filename: pool/main/gradle-core_8.8-liquid1_all.deb
+Size: 11784
+MD5sum: 49285275bb51cb52f7ed0289d4052d66
+SHA1: 45ab097f5d5815f8052087cf1ae6fbc4854e367e
+SHA256: 62e7540146e4327dd649736714b344260881de889a2f5136abc14de83ced265b
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Gradle core launcher and distribution files
+ Liquid IDE Gradle 8.8 runtime component.
+
+Package: gradle-libs-a
+Version: 8.8-liquid1
+Architecture: all
+Maintainer: Liquid IDE maintainers
+Depends: openjdk-17, gradle-core
+Filename: pool/main/gradle-libs-a_8.8-liquid1_all.deb
+Size: 68755728
+MD5sum: 23d51e4f899ed3ce13a0d3e695514d49
+SHA1: 62fa752a65de592d6621e529c0407dc1c903ca44
+SHA256: 9881463d5760062f2a292ffa19e15fe340252e4d33e48be01478509a3e387d9e
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Gradle runtime libraries part A
+ Liquid IDE Gradle 8.8 runtime component.
+
+Package: gradle-libs-b
+Version: 8.8-liquid1
+Architecture: all
+Maintainer: Liquid IDE maintainers
+Depends: openjdk-17, gradle-core
+Filename: pool/main/gradle-libs-b_8.8-liquid1_all.deb
+Size: 67428856
+MD5sum: ed6fb5ff3b10293162d65c6e63ca4f42
+SHA1: 3a5c51cb31a289a196532624d2eb6aaec70c8c6b
+SHA256: 3f706ed52ffb3089bd3b92ef77242b15e69a5fa7518ec61daf0574288284fbe6
+Section: devel
+Priority: optional
+Homepage: https://gradle.org/
+Description: Gradle runtime libraries part B
+ Liquid IDE Gradle 8.8 runtime component.
+
 Package: python-ensurepip-wheels
 Version: 3.11.6-1
 Architecture: all

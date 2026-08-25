@@ -1,28 +1,29 @@
 {
-  "android_sdk": "",
-  "cmdline_tools": "https://dl.google.com/android/repository/commandlinetools-linux-16111833_latest.zip",
+  "android_sdk": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-android-sdk-base.tar.xz",
+  "cmdline_tools": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-cmdline-tools.tar.xz",
   "build_tools": {
     "aarch64": {
-      "_34_0_4": "https://dl.google.com/android/repository/build-tools_r34-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-build-tools-34.0.4-aarch64.tar.xz"
     },
     "arm": {
-      "_34_0_4": "https://dl.google.com/android/repository/build-tools_r34-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-build-tools-34.0.4-aarch64.tar.xz"
     },
     "x86_64": {
-      "_34_0_4": "https://dl.google.com/android/repository/build-tools_r34-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-build-tools-34.0.4-aarch64.tar.xz"
     }
   },
   "platform_tools": {
     "aarch64": {
-      "_34_0_4": "https://dl.google.com/android/repository/platform-tools_r37.0.1-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-platform-tools-34.0.4-aarch64.tar.xz"
     },
     "arm": {
-      "_34_0_4": "https://dl.google.com/android/repository/platform-tools_r37.0.1-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-platform-tools-34.0.4-aarch64.tar.xz"
     },
     "x86_64": {
-      "_34_0_4": "https://dl.google.com/android/repository/platform-tools_r37.0.1-linux.zip"
+      "_34_0_4": "https://raw.githubusercontent.com/sumanworkspace-crypto/liquid-packages/main/tools/archives/liquid-platform-tools-34.0.4-aarch64.tar.xz"
     }
   },
-  "source": "Google Android SDK repository",
-  "note": "Google publishes Linux host archives; device-architecture compatibility must be validated by the Liquid IDE build before release."
+  "platform_api": "34",
+  "source": "Liquid IDE ARM64 toolchain archives with upstream notices retained",
+  "note": "The ARM64 build-tools and platform-tools archives are the device-native artifacts used by Liquid IDE. The setup also installs Android platform API 34 through sdkmanager after the JDK is verified."
 }
