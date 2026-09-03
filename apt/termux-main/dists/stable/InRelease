@@ -1,0 +1,32 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: stable
+Components: main
+Architectures: aarch64 all
+MD5Sum:
+ 4d0856fa2f20fe72c67c7f7e1657e905            98728 main/binary-aarch64/Packages
+ 759c5dd7d69874b88c88f489e42dbc73            32501 main/binary-aarch64/Packages.gz
+ 50aadefb64d09a8fffaf7cccb134bc98            28072 main/binary-aarch64/Packages.xz
+ c68b4b1b05edd8193a5385e61809e72a            10549 main/binary-all/Packages
+ 14e4d7edbfdfee8f270f9d8336d80b36             3951 main/binary-all/Packages.gz
+ 231c3ebc2ab74b8d407937c3004ed1bf             3808 main/binary-all/Packages.xz
+SHA256:
+ 50d371e35d2e5a0555ff253d3875b5ea1f844882ef77e5430ccd00037f5a2bc6            98728 main/binary-aarch64/Packages
+ 492f70fb5e7162dcc5c2e2fde82ae517266c02142a381c3241809d4ce13b383a            32501 main/binary-aarch64/Packages.gz
+ 98ae81cc4832af86ed65c4fe67385bb1eb9f20c61d75119af37a92181287462a            28072 main/binary-aarch64/Packages.xz
+ 04bb5fcefccdcfbef64911a116421aa21d0b4394e33ca99214f3979166185ef3            10549 main/binary-all/Packages
+ fa455dc310d086148a6a750ad108883a6e1851ecb7d9b84e429ac5aee9b154aa             3951 main/binary-all/Packages.gz
+ 6fcb001ad38de28cd709e96137a491c73d6ced56261220748c541d441ac3adf9             3808 main/binary-all/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQFiBAEBCABMFiEEjOkVSlTyRg0XavOuPin0pw0OJvcFAmqZi5QbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMywyEhxib3RAbGlxdWlkaWRlLmNvbQAKCRA+KfSnDQ4m
+97QYB/9w7D9FOYwSVYOvI/jewOZhAlohiRdgRiGzr6H6dzFzIFZ+3x1xBDfgYbwh
+l9CMmmfp46AIuIV+ZUzVlxSkooQ96wnF7OFtV7gTz7q9PHLkAXOC0Ice4WT0w+nV
+y5yx+q5t46aZmnqeAWrN3Mp9QsSgIZoPSJP87O0iMiBbctWorSqIpEZEzoNUfQk8
+dMM6rN57vi3lj6V68DhzJNKQg0oCUyryZtB868NeErH1ceDw9p8KAIBYnsLJzk+j
+ExOP2FmYVRhD5CQSO6F5sDs7l0i8Hc8u2BZR4WIi83o9no9xEDzAcUr6wn3NSGmB
+mSjP9ugoQHSb7bxn0V4VFOlB9lyL
+=7unu
+-----END PGP SIGNATURE-----
