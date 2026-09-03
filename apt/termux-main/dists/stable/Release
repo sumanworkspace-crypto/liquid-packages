@@ -1,21 +1,16 @@
-Origin: Liquid IDE
-Label: Liquid IDE
-Suite: stable
 Codename: stable
-Date: Tue, 25 Aug 2026 12:21:25 +0000
-Architectures: aarch64 all
 Components: main
-Description: Liquid IDE ARM64 package repository
+Architectures: aarch64 all
 MD5Sum:
- 7f061969cb1720d8f82acc74baf97c28            98125 main/binary-aarch64/Packages
- 22817e319921e5e42f015482db5948e2            32075 main/binary-aarch64/Packages.gz
+ a3c44a31e0380cf4ef277f975b114921            99309 main/binary-aarch64/Packages
+ 812fc543fcb02a1ca556ad9dc5d43d83            32606 main/binary-aarch64/Packages.gz
  7c6802f3cbf9d3d6f9d59398e859a4b7            27892 main/binary-aarch64/Packages.xz
  c68b4b1b05edd8193a5385e61809e72a            10549 main/binary-all/Packages
  14e4d7edbfdfee8f270f9d8336d80b36             3951 main/binary-all/Packages.gz
  231c3ebc2ab74b8d407937c3004ed1bf             3808 main/binary-all/Packages.xz
 SHA256:
- f4792e61cf6a8183bc06b1957164c15f0f4c4ed48174cda730841adf6f8ead1f            98125 main/binary-aarch64/Packages
- 185af28b15dfbe3ab2d26aea2a6a71a305df624c2728ebff6b5c7f3bfae63a37            32075 main/binary-aarch64/Packages.gz
+ d907fa284e01c5f39b2af68ea30217a91ae1c40c70522f1747d004803ac58698            99309 main/binary-aarch64/Packages
+ f0279391c9a84fab0e4ea44d1f699e858bd5639c242e9941d67d9c1ed958a9cb            32606 main/binary-aarch64/Packages.gz
  7cb654cb937223857b2e6c10a58131a3f0a31f1c14cbf8a8f6fc7f30a3d29ccb            27892 main/binary-aarch64/Packages.xz
  04bb5fcefccdcfbef64911a116421aa21d0b4394e33ca99214f3979166185ef3            10549 main/binary-all/Packages
  fa455dc310d086148a6a750ad108883a6e1851ecb7d9b84e429ac5aee9b154aa             3951 main/binary-all/Packages.gz
