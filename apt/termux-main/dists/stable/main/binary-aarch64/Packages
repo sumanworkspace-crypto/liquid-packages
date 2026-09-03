@@ -3042,7 +3042,7 @@ Replaces: openjdk-17
 Suggests: cups
 Description: Java development kit and runtime (Liquid IDE custom)
 Filename: pool/main/openjdk-21_21.0.1-1_aarch64.deb
-Size: 103140952
-MD5sum: e20090c0a0ea58770ca1c44c32e2d01c
-SHA1: 7e3599401c23bd953245757964248d6b7b366333
-SHA256: 5b7a8836f792a27d1511013b88d64454149c375cc90e05a8478dd8736e40e0c0
+Size: 103151148
+MD5sum: 49ce6e904ebd16ac81e40d6d7ca6ea49
+SHA1: a3446ca000b8d3374d6d432e79ba8283d8d36f61
+SHA256: 0e29185216f77ca1f151cb2a13ccd5498c606d1304e2bca2ecc70b66c5b1235b
