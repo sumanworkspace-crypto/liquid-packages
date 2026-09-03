@@ -3029,22 +3029,6 @@ Homepage: https://github.com/facebook/zstd
 Description: Static libraries for zstd
 
 
-Package: openjdk-21
-Architecture: aarch64
-Installed-Size: 252664
-Maintainer: @termux
-Version: 21.0.1-1
-Homepage: https://github.com/itsaky/jdk21-android
-Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
-Recommends: ca-certificates-java, openjdk-21-x, resolv-conf
-Replaces: openjdk-17
-Suggests: cups
-Description: Java development kit and runtime
-Filename: pool/main/openjdk-21_21.0.1-1_aarch64.deb
-Size: 105872208
-MD5sum: 3bd0ab77c472aac40eda197fe5feede8
-SHA1: d65aa3a6e4b2a905ef465abc5baea7ad571501b1
-SHA256: 2f5eb3438eaf2f007a67dab93f69641eee191cb97ae488601df447d09b6f77b0
 
 Package: openjdk-21
 Architecture: aarch64
