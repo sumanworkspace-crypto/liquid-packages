@@ -3028,3 +3028,37 @@ SHA256: e94bfc4920d3555914e80efc158302bf82a465b469f14559f6a2fd57e27358b7
 Homepage: https://github.com/facebook/zstd
 Description: Static libraries for zstd
 
+
+Package: openjdk-21
+Architecture: aarch64
+Installed-Size: 252664
+Maintainer: @termux
+Version: 21.0.1-1
+Homepage: https://github.com/itsaky/jdk21-android
+Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
+Recommends: ca-certificates-java, openjdk-21-x, resolv-conf
+Replaces: openjdk-17
+Suggests: cups
+Description: Java development kit and runtime
+Filename: pool/main/openjdk-21_21.0.1-1_aarch64.deb
+Size: 105872208
+MD5sum: 3bd0ab77c472aac40eda197fe5feede8
+SHA1: d65aa3a6e4b2a905ef465abc5baea7ad571501b1
+SHA256: 2f5eb3438eaf2f007a67dab93f69641eee191cb97ae488601df447d09b6f77b0
+
+Package: openjdk-21
+Architecture: aarch64
+Installed-Size: 252664
+Maintainer: @termux
+Version: 21.0.1-1
+Homepage: https://github.com/itsaky/jdk21-android
+Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
+Recommends: ca-certificates-java, openjdk-21-x, resolv-conf
+Replaces: openjdk-17
+Suggests: cups
+Description: Java development kit and runtime (Liquid IDE custom)
+Filename: pool/main/openjdk-21_21.0.1-1_aarch64.deb
+Size: 102462880
+MD5sum: e4136d96a69d4f8bd59e399b9c244585
+SHA1: 8791a09e3208ef66ff3466a97cd897ad480fc718
+SHA256: d6540329098cbd8de70b1e4866d19424d22e090b59f6ff539c0a70424e1d3d7d
